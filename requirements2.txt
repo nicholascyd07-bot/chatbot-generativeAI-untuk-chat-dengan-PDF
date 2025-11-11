@@ -1,0 +1,6 @@
+# Standard library 'os' does not need a package
+# For `import PyPDF2`
+PyPDF2
+
+# For `import google.generativeai as genai`
+google-generativeai

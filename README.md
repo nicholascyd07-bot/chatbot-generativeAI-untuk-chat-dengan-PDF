@@ -39,8 +39,10 @@ python "generative AI untuk menganalisa pdf.py"
 ## Alat dan Pustaka (Paket) yang digunakan
 google
 google-generativeai
+PyPDF2
 
 ## Penggunaan
 
 
 Setelah aplikasi berjalan, Anda dapat mengobrol dengan Google Generative AI di konsol atau CMD Anda
+

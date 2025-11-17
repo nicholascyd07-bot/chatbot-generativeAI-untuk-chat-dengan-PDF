@@ -51,7 +51,7 @@ while True:
 
         while True:
             pdf_dir_input = input("Masukkan nama folder PDF (misal: 'file pdf'): ")
-            pdf_filename_input = input("Masukkan nama file PDF (misal: 'SuratKeterangan.pdf'): ")
+            pdf_filename_input = input("Masukkan nama file PDF (misal: 'Contoh-Review-Jurnal-Komunikasi.pdf'): ")
 
             current_pdf_path = os.path.join(pdf_dir_input.strip(), pdf_filename_input.strip())
             if os.path.exists(current_pdf_path):
@@ -86,3 +86,4 @@ while True:
     except Exception as e:
 
         print(f"Terjadi kesalahan saat mengirim pesan ke model Gemini: {e}")
+
